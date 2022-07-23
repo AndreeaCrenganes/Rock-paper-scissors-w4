@@ -1,0 +1,65 @@
+body
+{ background-color: beige;
+    background-image: url(./rps.webp);
+    background-position: right;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+}
+
+.container {
+    display: block;
+    margin: 20px;
+}
+
+h2 {
+    font-size: 40px;
+    color: rgb(207, 58, 163);
+   
+}
+
+h3 { 
+    color: black;
+    font-size: 30px;
+    
+}
+    
+.buttons {
+    background-color:blueviolet; 
+    border: solid 1px;
+    color:aqua;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 12px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+       
+}
+
+.button:hover {
+    background-color: black;
+    color: blue;
+    transition: 0.5s ease-in-out;
+}
+
+#rock {
+    font-size: 20px;
+    background-color: aqua;
+    width: 200px;
+    padding: 20px;
+    
+}
+
+#paper {
+    font-size: 20px;
+    background-color:azure;
+    width: 200px;
+    padding: 20px;
+}
+
+#scissors {
+    font-size: 20px;
+    background-color: rgb(20, 140, 220);
+    width: 200px;
+    padding: 20px;
+}
+
